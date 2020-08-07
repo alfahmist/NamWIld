@@ -49,11 +49,12 @@ body {
     transition: .6s;
   }
   .bg-custom.scroll {
-    background: #fff;
+    background: #eee;
+    opacity: .9;
     background: -webkit-gradient(linear, left top, left bottom, from(0), to(0));
     background: linear-gradient(0, 0);
     color: #000;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.6);
   }
   .bg-custom.scroll .navbar-nav .nav-link:hover {
     color: #888 !important;
