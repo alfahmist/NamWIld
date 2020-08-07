@@ -1,6 +1,5 @@
 body {
   background-color: #fff;
-  height: 2000px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,20 +80,75 @@ body {
   }
 }
 
-figure .img-fluid {
+#feature {
+  padding-bottom: 62px;
+}
+
+#feature figure .img-fluid {
   height: 300px;
   margin-bottom: 32px;
 }
 
-.btn-more {
+#feature .btn-more {
   background-color: #333;
   color: #fff;
   font-size: 20px;
   width: 230px;
 }
 
-.btn-more:hover {
+#feature .btn-more:hover {
   background-color: #888;
   color: #333;
+}
+
+#coming {
+  overflow: hidden;
+  background-image: url("../asset/image/coming.png");
+  height: 500px;
+  width: 100%;
+  padding-top: 225px;
+  padding-bottom: 32px;
+}
+
+#coming .btn-coming {
+  background-color: #000;
+  color: #fff;
+  width: 460px;
+  font-size: 28px;
+}
+
+#footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #222;
+  color: #eee;
+}
+
+#footer h5 {
+  font-size: 18px;
+}
+
+#footer p {
+  font-size: 12px;
+}
+
+#footer .logo {
+  width: 35px;
+  margin-right: 16px;
+}
+
+#footer .btn-sub {
+  background-color: #eee;
+  color: #222;
+}
+
+#footer .btn-sub:hover {
+  background-color: #666;
+  color: #eee;
+}
+
+#footer a {
+  color: white;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
