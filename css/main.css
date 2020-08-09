@@ -156,4 +156,35 @@ body {
 #footer .copy {
   font-size: 12px;
 }
+
+#single-product {
+  padding-top: 200px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.single-thumbnail {
+  width: 50px;
+}
+
+.btn-buy {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  width: 230px;
+}
+
+.btn-buy:hover {
+  background-color: #888;
+  color: #333;
+}
 /*# sourceMappingURL=main.css.map */
